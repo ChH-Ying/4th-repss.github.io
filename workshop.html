@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4th Vision-based Remote Physiological Signal Sensing (RePSS) Challenge & Workshop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+        }
+        
+        .navbar {
+            background-color: #000;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+	.navbar a.active {
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+        }
+        
+        .hero {
+            background-color: #666;
+            color: white;
+            padding: 50px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://legends.pokemon.com/_images/logos/legendslogo_en-2x.webp');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .hero-content {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+        }
+        
+        .logo {
+            width: 220px;
+            margin-right: 40px;
+        }
+        
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .hero-text p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        
+        .hero-text a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        .content {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        .content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .content a {
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        .content ul {
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .content li {
+            margin-bottom: 10px;
+        }
+
+        .image-gallery {
+            margin: 40px 0;
+        }
+
+        .image-gallery h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gallery-item {
+            flex: 1;
+            min-width: calc(25% - 15px);
+            max-width: calc(25% - 15px);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            display: block;
+            object-fit: cover;
+        }
+
+.speakers-section {
+            margin: 50px 0;
+        }
+        
+        .speaker-card {
+            display: flex;
+            margin-bottom: 50px;
+            align-items: flex-start;
+        }
+        
+        .speaker-image {
+            flex: 0 0 370px;
+            margin-right: 30px;
+        }
+        
+        .speaker-image img {
+            width: 100%;
+            display: block;
+            border-radius: 5px;
+        }
+        
+        .speaker-info {
+            flex: 1;
+        }
+        
+        .speaker-name {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        .speaker-affiliation {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #555;
+        }
+        
+        .speaker-details h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .speaker-details p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="workshop.html">Workshop</a>
+        <a href="event_schedule.html">Event schedule</a>
+        <a href="challenge.html">Challenge</a>
+        <a href="organizers.html">Organizers</a>
+    </nav>
+    
+    <div class="hero">
+        <div class="hero-content">
+
+            <div class="hero-text">
+		<img src="https://legends.pokemon.com/_images/logos/legendslogo_en-2x.webp" alt="RePSS Logo" class="logo">
+                <h1>The 4th Vision-based Remote Physiological Signal Sensing (RePSS) Challenge & Workshop</h1>
+                <p>To be held at <a href="https://2025.ijcai.org/">IJCAI 2025</a>, 5th August 2025, Montreal, Canada</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+	<h2>Invited Speakers</h2>
+        <div class="speakers-section">
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <img src="https://legends.pokemon.com/_images/logos/legendslogo_en-2x.webp" alt="Prof. Pong Chi Yuen">
+                    <div class="speaker-name">Prof. Pong Chi Yuen</div>
+                    <div class="speaker-affiliation">Hong Kong Baptist University</div>
+                </div>
+                <div class="speaker-info">
+                    <div class="speaker-details">
+                        <h3>Title:</h3>
+                        <p>Towards Practical Remote Photoplethysmography Detector</p>
+                        
+                        <h3>Abstract:</h3>
+                        <p>Remote photoplethysmography (rPPG) is a promising enabling technology for many non-contact and non-invasive computer vision and healthcare applications, such as face presentation attack detection, heart rate and respiration rate estimation, and sleep disorder detection. While rPPG research has been performed for almost 20 years, there has been great success in the past few years. To develop such applications, one of the key factors is to develop a robust and accurate rPPG detector that is insensitive to illumination and human motion. In this talk, I will first review the development of rPPG detection and its applications. Then, I will share two recent research works on rPPG detection from my group. Finally, some future directions will be discussed.</p>
+                        
+                        <h3>Bio:</h3>
+                        <p>Pong C. Yuen received his B.Sc. in Electronic Engineering with first-class honours in 1989 from the City Polytechnic of Hong Kong and his Ph.D. in Electrical and Electronic Engineering in 1993 from The University of Hong Kong. He joined the Hong Kong Baptist University in 1993 and served as Head of the Department of Computer Science from 2011 to 2017. Currently, he is a Chair Professor in the Department of Computer Science and Associate Dean of the Science Faculty. Dr. Yuen has held key roles in international conferences and professional communities, including serving as Associate Editor of IEEE Transactions on Information Forensics and Security and Senior Editor of the SPIE Journal of Electronic Imaging. He is a Fellow of IAPR and has received prestigious awards such as the Natural Science Awards from Guangdong Province and...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	<h2>Call for papers</h2>
+        <p>The workshop calls for high-quality and original research works.  The topic includes but is not limited to:</p>
+	<ol>
+		<li>New methodologies and data developed for remote measurement of all kinds of physiological responses of human bodies, e.g., heart rate, heart rate variability, respiration, blood oxygen saturation, blood pressure, and others.</li>
+		<li>Hardwires/apparatuses/imaging systems developed for the purpose of remote physiological measurement from the face and body.</li>
+		<li>Solutions for special challenges involved with remote physiological signal sensing, e.g., low-quality video, poor illumination conditions, motions, data with noisy labels or no labels, etc.</li>
+		<li>Applications of remote physiological sensing, e.g., for medical assessment in hospitals, for health surveillance at home or in other environments, for emotion assessment in various scenarios like for education, job interview, etc., for security and forensics like liveness detection, biometrics, and video editing/synthesis.</li>
+		<li>Methodologies and data for the applications of all kinds of physiological signals (e.g., ECG, PPG, EEG, EDA).</li>
+		<li>Self-supervised or unsupervised methods for model training on all kinds of physiological signals.</li>
+	</ol>
+
+	<h2>Paper Submission Instructions</h2>
+
+	<h2>Important Date</h2>
+        
+
+
+    </div>
+
+    <script>
+	document.addEventListener('DOMContentLoaded', function() {
+    
+		const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    
+    
+		const navLinks = document.querySelectorAll('.navbar a');
+    
+    
+		navLinks.forEach(link => {
+        
+			const linkPage = link.getAttribute('href');
+        
+        
+			if (linkPage === currentPage || 
+(currentPage === '' && linkPage === 'index.html') ||
+ (currentPage === '/' && linkPage === 'index.html')) {
+  
+		          link.classList.add('active');
+        
+			}
+    
+		});
+
+	});
+
+    </script>
+</body>
+</html>
